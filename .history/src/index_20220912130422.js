@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./csswebmural.css";
-import WebMural from "./Pages/WebMural";
+import "./index.css";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 

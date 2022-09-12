@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./csswebmural.css";
+import "./index.css";
 import WebMural from "./Pages/WebMural";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
