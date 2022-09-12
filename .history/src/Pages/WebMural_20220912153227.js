@@ -30,7 +30,11 @@ const UploadAndDisplayImage = () => {
     <main>
       <nav className="cabeceranavi">
         <ol>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="oli">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="oli"
+          >
             Home
           </a>
           <nav className="oli" onClick={() => handleImageChange(null)}>
