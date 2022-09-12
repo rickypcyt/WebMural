@@ -164,7 +164,7 @@ ul {
 }
 .overlay2 {
   position: absolute;
-  bottom: 9%;
+  bottom: 8%;
   background: rgb(0, 0, 0);
   background: rgba(40, 40, 40, 0.6); /* Black see-through */
   color: #f1f1f1;
@@ -194,11 +194,7 @@ ul {
     height: auto;
     width: 100%;
   }
-    .image-container img {
-    max-height: -10px;
-  }
-  .overlay2 {
-    bottom: 20px;
+  ol {
   }
 }
 
@@ -228,13 +224,15 @@ ul {
   width: 100%;
 }
 @media (max-width: 700px) {
-
+  .image-container img {
+    max-height: -10px;
+  }
 }
 
 .image:hover {
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
   position: inherit;
   transform: scale(
-    1.1
+    1.15
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
