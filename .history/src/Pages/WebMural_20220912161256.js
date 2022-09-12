@@ -31,7 +31,8 @@ const UploadAndDisplayImage = () => {
       <nav className="cabeceranavi">
         <ol>
           <a
-            href="https://ricky-react-portfolio.vercel.app/projects"
+            href="https://my-app-seven-lime.vercel.app/"
+            target="_blank"
             rel="noopener noreferrer"
             className="oli"
           >

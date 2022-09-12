@@ -32,6 +32,7 @@ const UploadAndDisplayImage = () => {
         <ol>
           <a
             href="https://ricky-react-portfolio.vercel.app/projects"
+            target="_blank"
             rel="noopener noreferrer"
             className="oli"
           >
